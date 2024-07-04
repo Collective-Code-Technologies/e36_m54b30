@@ -2,6 +2,7 @@
 
 ### Main power delivery
 - [ ] Main relay
+- [ ] ECU grounds, power grounds, VCC...
 
 ### Fuel injection
 - [ ] Injectors
@@ -9,6 +10,8 @@
 
 ### Ignition
 - [ ] Ignition system
+	- [ ] Knock sensor wiring
+		- [ ] Knock sensor calibration
 	- [ ] Ignition coils wiring
 		- [ ] Active or passive?
 		- [ ] Dwell time across RPM range relative to battery voltage
@@ -19,6 +22,7 @@
 
 ### VVT
 - [ ] Dual Vanos
+	- [ ] Solenoid wiring
 
 ### Dashboard
 - [ ] Dashboard
