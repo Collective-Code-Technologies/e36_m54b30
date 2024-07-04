@@ -1,10 +1,19 @@
 # Todo
 
+### Main power delivery
 - [ ] Main relay
+
+### Fuel injection
 - [ ] Injectors
-- [ ] Ignition system
-- [ ] Dual Vanos
 - [ ] Lambda
+
+### Ignition
+- [ ] Ignition system
+
+### VVT
+- [ ] Dual Vanos
+
+### Dashboard
 - [ ] Dashboard
 	- [ ] RPM gauge
 	- [ ] Temperature gauge
