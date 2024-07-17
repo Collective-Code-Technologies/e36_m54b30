@@ -12,8 +12,8 @@
 - [ ] Ignition system
 	- [ ] Knock sensor wiring
 		- [ ] Knock sensor calibration
-	- [X] Ignition coils wiring
-		- [X] Active or passive? - Passive
+	- [+] Ignition coils wiring
+		- [+] Active or passive? - Passive
 		- [ ] Dwell time across RPM range relative to battery voltage
 	- [ ] Vanos trigger pattern
 		- [ ] Camshaft sensors, hall/vr?
