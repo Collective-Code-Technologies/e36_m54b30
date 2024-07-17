@@ -1,8 +1,8 @@
 # Todo
 
 ### Main power delivery
-- [X] Main relay
-- [X] ECU grounds, power grounds, VCC...
+- [+] ECU grounds, power grounds, VCC...
+- [+] Main relay
 
 ### Fuel injection
 - [ ] Injectors
