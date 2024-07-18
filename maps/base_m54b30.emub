@@ -19,7 +19,7 @@
     <symbol name="mapAnalogIn" value="0" storage="ubyte" type="paramList"/>
     <symbol name="knockFrequency" value="40" storage="ubyte" type="paramList"/>
     <symbol name="knockSensorGain" value="0" storage="ubyte" type="paramList"/>
-    <symbol name="initMask" value="65535" storage="word" type="paramList"/>
+    <symbol name="initMask" value="0" storage="word" type="paramList"/>
     <symbol name="primTrigerType" value="0" storage="ubyte" type="paramList"/>
     <symbol name="numTeeth" value="60" storage="ubyte" type="value"/>
     <symbol name="firstTriggerTooth" value="3" storage="ubyte" type="value"/>
@@ -268,7 +268,7 @@
     <symbol name="cltFreqOutput" value="0" storage="ubyte" type="paramList"/>
     <symbol name="nissanCamSyncWindowWidth" value="4" storage="ubyte" type="paramList"/>
     <symbol name="etcPosSeneorAin" value="7" storage="ubyte" type="paramList"/>
-    <symbol name="etcPosSeneorInvAin" value="6" storage="ubyte" type="paramList"/>
+    <symbol name="etcPosSeneorInvAin" value="0" storage="ubyte" type="paramList"/>
     <symbol name="etcIdleRange" value="10" storage="ubyte" type="value"/>
     <symbol name="ewgPositionMin" value="10" storage="ubyte" type="value"/>
     <symbol name="ewgPositionMax" value="240" storage="ubyte" type="value"/>
@@ -338,7 +338,7 @@
     <symbol name="cam2Type" value="4" storage="ubyte" type="paramList"/>
     <symbol name="cam2SensorType" value="1" storage="ubyte" type="paramList"/>
     <symbol name="cam2Pullup" value="1" storage="ubyte" type="paramList"/>
-    <symbol name="cam2InputFilter" value="0" storage="ubyte" type="paramList"/>
+    <symbol name="cam2InputFilter" value="1" storage="ubyte" type="paramList"/>
     <symbol name="cam2Edge" value="0" storage="ubyte" type="paramList"/>
     <symbol name="vvtCam2TriggerOffset" value="113" storage="word" type="value"/>
     <symbol name="vvtCam2MaxAdvance" value="35" storage="ubyte" type="value"/>
