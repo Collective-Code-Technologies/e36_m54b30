@@ -1,8 +1,8 @@
 # Todo
 
 ### Main power delivery
-- [X] Main relay
-- [X] ECU grounds, power grounds, VCC...
+- [+] ECU grounds, power grounds, VCC...
+- [+] Main relay
 
 ### Fuel injection
 - [ ] Injectors
@@ -12,8 +12,8 @@
 - [ ] Ignition system
 	- [ ] Knock sensor wiring
 		- [ ] Knock sensor calibration
-	- [X] Ignition coils wiring
-		- [X] Active or passive? - Passive
+	- [+] Ignition coils wiring
+		- [+] Active or passive? - Passive
 		- [ ] Dwell time across RPM range relative to battery voltage
 	- [ ] Vanos trigger pattern
 		- [ ] Camshaft sensors, hall/vr?
