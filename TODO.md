@@ -3,6 +3,10 @@
 ### Main power delivery
 - [+] ECU grounds, power grounds, VCC...
 - [+] Main relay
+- [+] IAT
+	- [ ] IAT Calibration
+- [ ] CLT
+	- [ ] CLT Calibration
 
 ### Fuel injection
 - [ ] Injectors
