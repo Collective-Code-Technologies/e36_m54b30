@@ -12,7 +12,7 @@
 
 
 ### Fuel injection
-- [ ] Injectors
+- [+] Injectors
 - [+] Lambda
 
 ### Ignition
