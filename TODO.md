@@ -48,3 +48,16 @@
 
 # Other
 
+### Tuning
+
+https://www.ms4x.net/index.php?title=Siemens_MS43
+
+
+Tip for full load VANOS table:
+Begin from low rpm with max number for your cam (intake 126° , exhaust -105°)
+and progressively reduce number until you reach 4000rpm and lowest cam number (intake 86, exhaust -80)
+
+From 4000rpm upwards, use inverse technique, start to rise again numbers, progressively.
+(every engine responds different by exhaust config) Test combinations until you are happy.
+
+Also, do changes for intake only, leave exhaust alone if you are on stock exhaust manifold. 
