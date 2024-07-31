@@ -44,11 +44,11 @@
     <symbol name="idleStepperNumSteps" value="100" storage="word" type="value"/>
     <symbol name="idleAfterstartAdd" value="300" storage="word" type="value"/>
     <symbol name="idleAfterstartDuration" value="1" storage="ubyte" type="value"/>
-    <symbol name="idleOnIfTPSBelow" value="2" storage="ubyte" type="value"/>
-    <symbol name="idleOffIfTPSOver" value="2" storage="ubyte" type="value"/>
+    <symbol name="idleOnIfTPSBelow" value="1" storage="ubyte" type="value"/>
+    <symbol name="idleOffIfTPSOver" value="1" storage="ubyte" type="value"/>
     <symbol name="idleDeadband" value="30" storage="ubyte" type="value"/>
     <symbol name="idleIncreaseAboveVSS" value="30" storage="word" type="value"/>
-    <symbol name="idleVSSIncrease" value="0" storage="word" type="value"/>
+    <symbol name="idleVSSIncrease" value="100" storage="word" type="value"/>
     <symbol name="idleIgntionCtrl" value="1" storage="ubyte" type="bool"/>
     <symbol name="idleIgnMaxAdvance" value="5" storage="ubyte" type="value"/>
     <symbol name="idleIgnMaxRetard" value="10" storage="ubyte" type="value"/>
@@ -723,7 +723,7 @@
     <symbol name="ignitionEventCranking11" value="0" storage="ubyte" type="paramList"/>
     <symbol name="ignitionEventCranking12" value="0" storage="ubyte" type="paramList"/>
     <symbol name="enableOutputCrankTable" value="0" storage="ubyte" type="bool"/>
-    <symbol name="idleAfterstartSustainRate" value="50" storage="ubyte" type="value"/>
+    <symbol name="idleAfterstartSustainRate" value="75" storage="ubyte" type="value"/>
     <symbol name="coolantFanTimeToEngage" value="250" storage="word" type="value"/>
     <symbol name="alsEnableFCIdleControl" value="0" storage="ubyte" type="bool"/>
     <symbol name="alsIdleControlRPM" value="2500" storage="word" type="value"/>
