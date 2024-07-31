@@ -42,7 +42,7 @@
     <symbol name="idleValveType" value="6" storage="ubyte" type="paramList"/>
     <symbol name="idleFrequency" value="20" storage="word" type="value"/>
     <symbol name="idleStepperNumSteps" value="100" storage="word" type="value"/>
-    <symbol name="idleAfterstartAdd" value="200" storage="word" type="value"/>
+    <symbol name="idleAfterstartAdd" value="300" storage="word" type="value"/>
     <symbol name="idleAfterstartDuration" value="1" storage="ubyte" type="value"/>
     <symbol name="idleOnIfTPSBelow" value="2" storage="ubyte" type="value"/>
     <symbol name="idleOffIfTPSOver" value="2" storage="ubyte" type="value"/>
