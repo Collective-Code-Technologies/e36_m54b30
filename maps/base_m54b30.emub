@@ -1301,7 +1301,7 @@
     <symbol name="primePulseTable" storage="ubyte" width="16" height="1" data="78 70 68 5F 57 4F 47 3F 36 2E 26 23 1E 1A 18 18 "/>
     <symbol name="accDTPSIgnCorr" storage="sbyte" width="16" height="1" data="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "/>
     <symbol name="cltFrequencyOutputTbl" storage="ubyte" width="16" height="1" data="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 "/>
-    <symbol name="etcOpening" storage="ubyte" width="16" height="8" data="0 4 9 E 12 17 1C 21 29 31 39 42 4B 53 5C 64 0 4 9 E 12 17 1C 21 29 31 39 42 4B 53 5C 64 0 4 9 E 12 17 1C 21 29 31 39 42 4B 53 5C 64 0 4 9 E 12 17 1C 21 29 31 39 42 4B 53 5C 64 0 4 9 E 12 17 1C 21 29 31 39 42 4B 53 5C 64 0 4 9 E 12 17 1C 21 29 31 39 42 4B 53 5C 64 0 4 9 E 12 17 1C 21 29 31 39 42 4B 53 5C 64 0 4 9 E 12 17 1C 21 29 31 39 42 4B 53 5C 64 "/>
+    <symbol name="etcOpening" storage="ubyte" width="16" height="8" data="0 3 7 A D 11 14 19 21 2A 34 3E 47 51 5B 64 0 3 7 A D 11 14 19 21 2A 34 3E 47 51 5B 64 0 3 7 A D 11 14 19 21 2A 34 3E 47 51 5B 64 0 3 7 A D 11 14 19 21 2A 34 3E 47 51 5B 64 0 3 7 A D 11 14 19 21 2A 34 3E 47 51 5B 64 0 3 7 A D 11 14 19 21 2A 34 3E 47 51 5B 64 0 3 7 A D 11 14 19 21 2A 34 3E 47 51 5B 64 0 3 7 A D 11 14 19 21 2A 34 3E 47 51 5B 64 "/>
     <symbol name="fuelIATCorr" storage="ubyte" width="16" height="1" data="64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 "/>
     <symbol name="pitLimitError" storage="sbyte" width="8" height="1" data="-A -8 -6 -4 -2 0 2 4 "/>
     <symbol name="pitLimitTorqReduction" storage="ubyte" width="8" height="1" data="5 16 26 36 43 50 5C 64 "/>
