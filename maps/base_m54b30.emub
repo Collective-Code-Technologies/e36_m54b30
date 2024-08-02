@@ -19,7 +19,7 @@
     <symbol name="mapAnalogIn" value="0" storage="ubyte" type="paramList"/>
     <symbol name="knockFrequency" value="40" storage="ubyte" type="paramList"/>
     <symbol name="knockSensorGain" value="29" storage="ubyte" type="paramList"/>
-    <symbol name="initMask" value="16" storage="word" type="paramList"/>
+    <symbol name="initMask" value="65535" storage="word" type="paramList"/>
     <symbol name="primTrigerType" value="0" storage="ubyte" type="paramList"/>
     <symbol name="numTeeth" value="60" storage="ubyte" type="value"/>
     <symbol name="firstTriggerTooth" value="3" storage="ubyte" type="value"/>
@@ -1404,7 +1404,7 @@
     <symbol name="etcOpening2" storage="ubyte" width="16" height="8" data="0 A 15 1F 28 31 38 3F 45 4A 4F 54 58 5C 60 64 0 A 15 1F 28 31 38 3F 45 4A 4F 54 58 5C 60 64 0 A 15 1F 28 31 38 3F 45 4A 4F 54 58 5C 60 64 0 A 15 1F 28 31 38 3F 45 4A 4F 54 58 5C 60 64 0 A 15 1F 28 31 38 3F 45 4A 4F 54 58 5C 60 64 0 A 15 1F 28 31 38 3F 45 4A 4F 54 58 5C 60 64 0 A 15 1F 28 31 38 3F 45 4A 4F 54 58 5C 60 64 0 A 15 1F 28 31 38 3F 45 4A 4F 54 58 5C 60 64 "/>
     <symbol name="dbwGearMaxOpen" storage="ubyte" width="7" height="1" data="64 64 64 64 64 64 64 "/>
     <symbol name="dbwGearOpenScl" storage="ubyte" width="7" height="1" data="64 64 64 64 64 64 64 "/>
-    <symbol name="injectionAngle" storage="word" width="8" height="8" data="18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E 18E "/>
+    <symbol name="injectionAngle" storage="word" width="8" height="8" data="1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 1A4 "/>
     <symbol name="secTriggerSensitivity" storage="ubyte" width="12" height="1" data="A 1B 2B 3C 4D 50 53 56 59 5D 60 63 "/>
     <symbol name="cam2Sensitivity" storage="ubyte" width="12" height="1" data="A 1B 2B 3C 4D 50 53 56 59 5D 60 63 "/>
     <symbol name="tpsBoostBins" storage="ubyte" width="10" height="1" data="0 B 16 21 2C 38 43 4E 59 64 "/>
