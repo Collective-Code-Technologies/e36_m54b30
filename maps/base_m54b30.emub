@@ -19,7 +19,7 @@
     <symbol name="mapAnalogIn" value="0" storage="ubyte" type="paramList"/>
     <symbol name="knockFrequency" value="40" storage="ubyte" type="paramList"/>
     <symbol name="knockSensorGain" value="29" storage="ubyte" type="paramList"/>
-    <symbol name="initMask" value="16" storage="word" type="paramList"/>
+    <symbol name="initMask" value="0" storage="word" type="paramList"/>
     <symbol name="primTrigerType" value="0" storage="ubyte" type="paramList"/>
     <symbol name="numTeeth" value="60" storage="ubyte" type="value"/>
     <symbol name="firstTriggerTooth" value="3" storage="ubyte" type="value"/>
@@ -326,15 +326,15 @@
     <symbol name="vvtCam1ControlType" value="1" storage="ubyte" type="paramList"/>
     <symbol name="vvtCam1Output1" value="3" storage="ubyte" type="paramList"/>
     <symbol name="vvtCam1OutputFrequency" value="250" storage="word" type="value"/>
-    <symbol name="vvtCam1SteadyPosDC" value="50" storage="ubyte" type="value"/>
+    <symbol name="vvtCam1SteadyPosDC" value="47" storage="ubyte" type="value"/>
     <symbol name="vvtCam1MaxDC" value="80" storage="ubyte" type="value"/>
     <symbol name="vvtCam1MinDC" value="10" storage="ubyte" type="value"/>
     <symbol name="vvtCam1MinCoolantTemp" value="0" storage="sbyte" type="value"/>
     <symbol name="vvtCam1MinRPM" value="400" storage="word" type="value"/>
-    <symbol name="vvtCam1PTerm" value="160" storage="ubyte" type="value"/>
+    <symbol name="vvtCam1PTerm" value="120" storage="ubyte" type="value"/>
     <symbol name="vvtCam1ITerm" value="1" storage="ubyte" type="value"/>
     <symbol name="vvtCam1DTerm" value="17" storage="ubyte" type="value"/>
-    <symbol name="vvtCam1IntegralLimit" value="60" storage="word" type="value"/>
+    <symbol name="vvtCam1IntegralLimit" value="50" storage="word" type="value"/>
     <symbol name="cam2Type" value="4" storage="ubyte" type="paramList"/>
     <symbol name="cam2SensorType" value="1" storage="ubyte" type="paramList"/>
     <symbol name="cam2Pullup" value="1" storage="ubyte" type="paramList"/>
@@ -1266,21 +1266,21 @@
     <symbol name="tpsBinsAirCharge" storage="ubyte" width="8" height="1" data="0 5 10 20 30 40 50 64 "/>
     <symbol name="acEvapCal" storage="sbyte" width="16" height="1" data="-14 -C -4 4 C 14 1C 24 2C 34 3C 44 4C 54 5C 64 "/>
     <symbol name="ignTable" storage="sbyte" width="16" height="20" data="1A 1D 1E 1E 1E 1D 1A 15 10 A 5 0 -5 -5 -6 -10 1E 21 22 23 23 23 21 1F 1C 18 14 11 D D C 2 21 25 29 2B 2C 2B 29 26 22 1D 18 15 10 10 F 5 23 2A 30 33 33 31 2E 2A 26 20 1B 18 13 13 12 8 26 2D 33 36 36 34 32 2E 2A 25 21 1D 19 19 18 E 29 30 36 39 39 38 36 32 2F 2A 26 23 1F 1F 1E 14 2C 33 39 3C 3C 3B 39 36 33 2F 2B 28 25 24 23 19 2E 35 3B 3E 3E 3D 3B 37 34 30 2C 29 26 25 24 1A 2F 36 3E 41 42 41 3E 3B 37 32 2E 2B 27 27 26 1C 30 37 3F 42 43 42 40 3D 39 34 30 2D 28 28 27 1F 30 38 3F 43 44 43 41 3E 3B 36 32 2F 2A 2A 28 20 31 39 41 44 46 45 43 40 3D 39 35 30 2B 2A 28 21 32 3A 42 46 48 46 44 40 3C 38 34 2E 2B 2A 28 20 32 3A 42 46 48 47 44 40 3D 38 33 2D 2A 28 26 20 32 3A 42 46 48 46 43 3E 3A 35 30 2B 28 26 24 1F 32 3A 41 45 47 45 42 3D 39 33 2E 2B 28 27 26 1D 32 39 40 43 46 44 41 3C 37 32 2E 2C 29 28 26 1D 32 3A 41 45 46 44 42 3E 3A 35 31 2D 2B 2B 2A 1E 32 3A 41 45 46 45 43 3F 3C 37 33 30 2C 2C 2B 21 32 3A 41 45 46 45 43 40 3D 39 35 32 2F 2F 2E 24 "/>
-    <symbol name="lambdaTable" storage="ubyte" width="8" height="10" data="64 64 64 61 5C 55 54 4E 64 64 64 61 5C 55 54 4E 64 64 64 61 5C 55 54 4E 64 64 64 61 5C 55 54 4E 64 64 64 61 5C 55 54 4E 64 64 64 61 5C 55 54 4E 64 64 64 61 5C 55 54 4E 64 64 64 61 5C 55 54 4E 64 64 64 61 5C 55 54 4E 64 64 64 61 5C 55 54 4E "/>
+    <symbol name="lambdaTable" storage="ubyte" width="8" height="10" data="64 64 64 64 5F 58 57 51 64 64 64 64 5F 58 57 51 64 64 64 64 5F 58 57 51 64 64 64 64 5F 58 57 51 64 64 64 64 5F 58 57 51 64 64 64 64 5F 58 57 51 64 64 64 64 5F 58 57 51 64 64 64 64 5F 58 57 51 64 64 64 64 5F 58 57 51 64 64 64 64 5F 58 57 51 "/>
     <symbol name="iatTbl" storage="sbyte" width="20" height="1" data="7F 7F 7F 7C 6C 60 58 51 45 3B 34 2D 26 1F 18 11 9 0 -28 -28 "/>
     <symbol name="cltTbl" storage="sword" width="20" height="1" data="E4 96 74 64 56 4B 43 3D 32 2A 23 1D 17 12 B 4 -2 -B -18 -28 "/>
     <symbol name="aseTbl" storage="ubyte" width="16" height="1" data="85 85 85 85 85 85 85 85 85 82 7C 75 6F 6A 64 64 "/>
     <symbol name="crankingTbl" storage="ubyte" width="16" height="5" data="6B 68 64 60 5B 57 53 50 4B 45 40 3F 3D 3C 3C 3C 6B 68 64 60 5B 57 53 50 4B 45 40 3F 3D 3C 3C 3C 6A 67 63 5F 5A 56 52 4F 4A 44 3F 3E 3C 3B 3B 3B 69 66 62 5E 59 55 51 4E 49 42 3E 3D 3B 3A 3A 3A 63 60 5C 58 53 4F 4B 48 43 40 3A 37 35 34 34 34 "/>
     <symbol name="injOpeningTimeTbl" storage="ubyte" width="12" height="1" data="74 4F 37 2C 26 20 1C 19 16 14 12 10 "/>
     <symbol name="warmupTbl" storage="ubyte" width="16" height="4" data="64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 78 78 77 75 73 70 6D 6A 67 66 65 64 64 64 64 64 8C 8B 8B 87 83 7C 77 70 6B 69 65 64 64 64 64 64 A0 9F 9E 98 92 88 80 76 6E 6B 66 64 64 64 64 64 "/>
-    <symbol name="accDTPSRate" storage="ubyte" width="16" height="1" data="4B 55 5A 5C 62 68 6F 75 7C 83 8C 95 9E A5 AC B4 "/>
+    <symbol name="accDTPSRate" storage="ubyte" width="16" height="1" data="4B 55 5A 5C 62 68 6D 72 77 7C 81 86 8F 96 9D A5 "/>
     <symbol name="accTPSFactor" storage="ubyte" width="16" height="1" data="64 61 5F 5C 59 57 54 51 4F 4C 49 47 44 41 3F 3C "/>
     <symbol name="accRPMFactor" storage="ubyte" width="20" height="1" data="60 5D 5A 57 55 52 4F 4C 49 46 43 40 3A 34 2F 2A 27 24 20 20 "/>
     <symbol name="dwellTime" storage="ubyte" width="12" height="1" data="E4 89 58 49 3A 32 2A 26 22 1F 1C 1A "/>
     <symbol name="dwellRPMCorr" storage="ubyte" width="20" height="1" data="64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 "/>
     <symbol name="idleRPM" storage="word" width="16" height="1" data="44C 44C 44C 44C 44C 3E8 3E8 3E8 3E8 3B6 3B6 3B6 3B6 3B6 41A 4B0 "/>
     <symbol name="ignCLTTrim" storage="sbyte" width="16" height="1" data="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "/>
-    <symbol name="ignIATTrim" storage="sbyte" width="16" height="1" data="0 0 0 0 0 0 0 0 -1 -2 -3 -4 -5 -6 -7 -8 "/>
+    <symbol name="ignIATTrim" storage="sbyte" width="16" height="1" data="0 0 0 0 0 0 0 -1 -2 -3 -4 -5 -6 -7 -8 -9 "/>
     <symbol name="TPSScaleTbl" storage="ubyte" width="16" height="1" data="64 64 64 64 64 64 64 64 64 64 64 64 64 5A 3C 0 "/>
     <symbol name="veTable" storage="u12" width="16" height="20" data="258 25B 26A 271 282 291 29E 2AF 2BE 2CE 2DF 2E5 2EA 2EE 2F3 2F8 254 25A 26D 27F 28F 29D 2A9 2B9 2C7 2D6 2E3 2EE 2F3 2F8 2FC 301 250 25A 272 28A 29A 2A8 2B4 2C4 2D2 2E2 2ED 2F9 2FE 303 307 30C 252 25E 27A 296 2AB 2BA 2C8 2D5 2E2 2EE 2FA 304 309 30E 312 317 253 264 281 2AB 2C0 2CF 2DD 2E9 2F1 2FD 308 316 31B 31F 324 328 258 26D 286 2C0 2CD 2DF 2EF 2F9 301 30A 315 323 32B 32F 331 334 25D 272 290 2BC 2CE 2E2 2EF 2FC 308 315 31E 330 339 33D 33D 340 260 271 295 2BC 2D0 2E3 2EE 2F7 303 316 325 336 344 345 345 345 266 276 298 2BB 2D1 2E0 2ED 2F7 300 31B 328 339 349 349 34A 349 26C 27B 29C 2BF 2D0 2DF 2EB 2F5 2FC 31E 32C 33C 34C 34E 34F 34F 272 280 29F 2C2 2D1 2DE 2E9 2F4 2FC 323 32F 33F 350 353 354 354 279 285 2A6 2C6 2D3 2DE 2E8 2F3 2FF 326 333 345 354 357 359 358 287 291 2AE 2CE 2D6 2DF 2EB 2F6 304 330 33E 350 360 367 36A 36B 297 29D 2B9 2D7 2DB 2E4 2F1 2FF 310 33D 34E 364 378 381 383 384 2A6 2AA 2C4 2E1 2E3 2EE 2FE 310 325 34A 360 37B 389 399 399 399 2B5 2B6 2D4 2E9 2EF 2FE 30F 327 343 35E 36E 38C 3A0 3A9 3A9 3A9 2DC 2DC 2E7 2F2 302 310 31E 337 349 367 37A 394 3A1 3A6 3A6 3A6 2F8 2F8 2FC 30A 31B 321 333 345 353 36D 380 397 3A1 3A6 3A6 3A6 316 317 318 324 32F 336 346 351 35B 374 383 399 3A2 3A6 3A6 3A6 33D 33E 342 346 34A 349 34F 355 35F 376 385 39A 3A2 3A6 3A6 3A6 "/>
     <symbol name="knockNoiseTable" storage="ubyte" width="20" height="4" data="3E 3E 3F 3F 40 40 40 41 41 42 42 42 43 44 45 46 47 48 49 4A 48 49 49 49 49 49 49 49 49 4A 4A 4B 4D 4F 50 51 52 53 54 55 52 52 52 52 52 52 52 52 54 54 54 55 58 59 5A 5B 5C 5D 5E 5F 57 58 59 59 5A 5B 5C 5C 5D 5E 5F 5F 62 64 65 66 67 68 69 6A "/>
