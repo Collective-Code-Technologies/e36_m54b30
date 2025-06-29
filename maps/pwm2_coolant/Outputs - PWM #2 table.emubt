@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="1.0">
+  <tables>
+    <symbol name="pwmTable2" storage="ubyte" width="8" height="8" data="64 64 50 1E 6 0 0 0 64 64 4C 11 0 0 0 0 64 64 3C 0 0 0 0 0 64 37 0 0 0 0 0 0 64 16 0 0 0 0 0 0 64 0 0 0 0 0 0 0 64 0 0 0 0 0 0 0 64 0 0 0 0 0 0 0 "/>
+  </tables>
+</project>
