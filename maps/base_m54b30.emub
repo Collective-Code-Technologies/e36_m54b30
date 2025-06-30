@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="2.169">
+<project version="2.175">
   <variables>
     <symbol name="fuelingType" value="0" storage="ubyte" type="paramList"/>
     <symbol name="enableBaro" value="0" storage="ubyte" type="bool"/>
@@ -78,7 +78,7 @@
     <symbol name="ignitionTrim2" value="0" storage="sbyte" type="value"/>
     <symbol name="ignitionTrim3" value="0" storage="sbyte" type="value"/>
     <symbol name="ignitionTrim4" value="0" storage="sbyte" type="value"/>
-    <symbol name="ignitionTrim5" value="0" storage="sbyte" type="value"/>
+    <symbol name="ignitionTrim5" value="-4" storage="sbyte" type="value"/>
     <symbol name="ignitionTrim6" value="0" storage="sbyte" type="value"/>
     <symbol name="ignitionTrim7" value="0" storage="sbyte" type="value"/>
     <symbol name="ignitionTrim8" value="0" storage="sbyte" type="value"/>
@@ -161,7 +161,7 @@
     <symbol name="knockMaxFuelEnrich" value="3" storage="ubyte" type="value"/>
     <symbol name="knockMaxIgnRetard" value="8" storage="ubyte" type="value"/>
     <symbol name="knockIgnRetardRate" value="3" storage="ubyte" type="value"/>
-    <symbol name="knockRestoreRate" value="10" storage="ubyte" type="value"/>
+    <symbol name="knockRestoreRate" value="8" storage="ubyte" type="value"/>
     <symbol name="nitrousControlActive" value="0" storage="ubyte" type="bool"/>
     <symbol name="nitrousActInput" value="0" storage="ubyte" type="paramList"/>
     <symbol name="nitrousActOutput" value="0" storage="ubyte" type="paramList"/>
@@ -1234,6 +1234,7 @@
     <symbol name="lambdaTrimIntegralLimitMax" value="25" storage="ubyte" type="value"/>
     <symbol name="shortTermMaxLambda" value="166" storage="ubyte" type="value"/>
     <symbol name="dsgAllowStartWhenP" value="0" storage="ubyte" type="bool"/>
+    <symbol name="dsgUseCombinedLoad" value="0" storage="ubyte" type="bool"/>
   </variables>
   <tables>
     <symbol name="cltBins8" storage="sword" width="8" height="1" data="-1E -A A 1E 32 46 5A 6E "/>
@@ -1492,9 +1493,9 @@
     <symbol name="tcUserTorqRedScle" storage="ubyte" width="10" height="1" data="64 64 64 64 64 64 64 64 64 64 "/>
     <symbol name="trailingSparkDelay" storage="ubyte" width="8" height="8" data="14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 "/>
     <symbol name="pwmXAnalogBins" storage="ubyte" width="16" height="1" data="0 D 1B 28 35 43 50 5D 6B 78 85 93 A0 AD BB C8 "/>
-    <symbol name="pwm2XAxis" storage="sword" width="8" height="1" data="59 5A 5C 5D 5E 5F 64 69 "/>
+    <symbol name="pwm2XAxis" storage="sword" width="8" height="1" data="58 59 5A 5B 5C 5D 5E 64 "/>
     <symbol name="pwm2YAxis" storage="sword" width="8" height="1" data="0 3E8 7D0 BB8 FA0 1388 1770 1B58 "/>
-    <symbol name="pwmTable2" storage="ubyte" width="8" height="8" data="64 0 0 0 0 0 0 0 64 0 0 0 0 0 0 0 64 0 0 0 0 0 0 0 64 0 0 0 0 0 0 0 64 0 0 0 0 0 0 0 64 0 0 0 0 0 0 0 64 0 0 0 0 0 0 0 64 0 0 0 0 0 0 0 "/>
+    <symbol name="pwmTable2" storage="ubyte" width="8" height="8" data="64 64 50 1E 6 0 0 0 64 64 4C 11 0 0 0 0 64 64 3C 0 0 0 0 0 64 37 0 0 0 0 0 0 64 16 0 0 0 0 0 0 64 0 0 0 0 0 0 0 64 0 0 0 0 0 0 0 64 0 0 0 0 0 0 0 "/>
     <symbol name="ewgBackPressureBins" storage="word" width="5" height="1" data="64 A3 E1 120 15E "/>
     <symbol name="ewgTargetBins" storage="ubyte" width="8" height="1" data="0 E 1D 2B 39 47 56 64 "/>
     <symbol name="ewgBaseDC" storage="sbyte" width="8" height="5" data="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "/>
@@ -1533,6 +1534,10 @@
     <symbol name="dsgTorqueReductionIgn" storage="ubyte" width="5" height="4" data="28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 28 "/>
     <symbol name="shortTrimKPScale" storage="ubyte" width="4" height="1" data="64 64 64 64 "/>
     <symbol name="shortTrimKIScale" storage="ubyte" width="4" height="1" data="64 64 64 64 "/>
+    <symbol name="dsgCombinedLoadTPSBin8" storage="ubyte" width="8" height="1" data="0 1D 39 56 72 8F AB C8 "/>
+    <symbol name="dsgCombinedLoadMAPBin4" storage="word" width="4" height="1" data="14 50 8C C8 "/>
+    <symbol name="dsgCombinedLoad" storage="ubyte" width="8" height="4" data="0 1D 39 56 72 8F AB C8 0 1D 39 56 72 8F AB C8 0 1D 39 56 72 8F AB C8 0 1D 39 56 72 8F AB C8 "/>
+    <symbol name="dsgCombinedLoadBin" storage="ubyte" width="12" height="1" data="0 12 24 37 49 5B 6D 7F 91 A4 B6 C8 "/>
   </tables>
   <userNames>
     <outputName id="0" name=""/>
